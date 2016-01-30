@@ -360,4 +360,4 @@ minetest.register_craft({
 	}
 })
 
-print("[MOD] Funny Signs 0.2 Loaded.")
+print("[MOD] Funny Signs 2.6 Loaded.")
