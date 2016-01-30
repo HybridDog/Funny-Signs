@@ -120,7 +120,7 @@ minetest.register_node("funnysigns:accid", {
 });
 
 minetest.register_node("funnysigns:bird", {
-	description = "Bird Poop Zone Sign",
+	description = "Bird Zone Sign",
 	drawtype = "signlike",
 	walkable = false,
 	tiles = {"bird.png"},
@@ -224,5 +224,140 @@ minetest.register_node("funnysigns:donoten", {
 	groups = {oddly_breakable_by_hand = 3}, 
 });
 
+-- recipes
+minetest.register_craft({
+	output = "funnysigns:fartzone",
+	recipe = {
+		{"default:paper", "dye:black", "default:paper"},
+		{"default:paper", "dye:yellow", "default:paper"},
+		{"default:paper", "dye:white", "default:paper"},
+	}
+})
 
-print("FUNNYSIGNS INIT OK")
+minetest.register_craft({
+	output = "funnysigns:toilet",
+	recipe = {
+		{"default:paper", "dye:blue", "default:paper"},
+		{"default:paper", "dye:red", "default:paper"},
+		{"default:paper", "dye:black", "default:paper"},
+	}
+})
+
+minetest.register_craft({
+	output = "funnysigns:aliens",
+	recipe = {
+		{"default:paper", "dye:black", "default:paper"},
+		{"default:paper", "dye:yellow", "default:paper"},
+		{"default:paper", "dye:yellow", "default:paper"},
+	}
+})
+
+minetest.register_craft({
+	output = "funnysigns:parac",
+	recipe = {
+		{"default:paper", "dye:black", "default:paper"},
+		{"default:paper", "dye:red", "default:paper"},
+		{"default:paper", "dye:white", "default:paper"},
+	}
+})
+
+minetest.register_craft({
+	output = "funnysigns:partyzone",
+	recipe = {
+		{"default:paper", "dye:black", "default:paper"},
+		{"default:paper", "dye:black", "default:paper"},
+		{"default:paper", "dye:yellow", "default:paper"},
+	}
+})
+
+minetest.register_craft({
+	output = "funnysigns:menat",
+	recipe = {
+		{"default:paper", "dye:black", "default:paper"},
+		{"default:paper", "dye:orange", "default:paper"},
+		{"default:paper", "dye:orange", "default:paper"},
+	}
+})
+
+minetest.register_craft({
+	output = "funnysigns:norat",
+	recipe = {
+		{"default:paper", "dye:black", "default:paper"},
+		{"default:paper", "dye:red", "default:paper"},
+		{"default:paper", "dye:red", "default:paper"},
+	}
+})
+
+minetest.register_craft({
+	output = "funnysigns:accid",
+	recipe = {
+		{"default:paper", "dye:black", "default:paper"},
+		{"default:paper", "dye:orange", "default:paper"},
+		{"default:paper", "dye:brown", "default:paper"},
+	}
+})
+
+minetest.register_craft({
+	output = "funnysigns:bird",
+	recipe = {
+		{"default:paper", "dye:black", "default:paper"},
+		{"default:paper", "dye:yellow", "default:paper"},
+		{"default:paper", "dye:orange", "default:paper"},
+	}
+})
+
+minetest.register_craft({
+	output = "funnysigns:cowpo",
+	recipe = {
+		{"default:paper", "dye:black", "default:paper"},
+		{"default:paper", "dye:black", "default:paper"},
+		{"default:paper", "dye:red", "default:paper"},
+	}
+})
+
+minetest.register_craft({
+	output = "funnysigns:notco",
+	recipe = {
+		{"default:paper", "dye:black", "default:paper"},
+		{"default:paper", "dye:white", "default:paper"},
+		{"default:paper", "dye:orange", "default:paper"},
+	}
+})
+
+minetest.register_craft({
+	output = "funnysigns:poop",
+	recipe = {
+		{"default:paper", "dye:black", "default:paper"},
+		{"default:paper", "dye:brown", "default:paper"},
+		{"default:paper", "dye:white", "default:paper"},
+	}
+})
+
+minetest.register_craft({
+	output = "funnysigns:sec",
+	recipe = {
+		{"default:paper", "dye:black", "default:paper"},
+		{"default:paper", "dye:red", "default:paper"},
+		{"default:paper", "dye:orange", "default:paper"},
+	}
+})
+
+minetest.register_craft({
+	output = "funnysigns:sparta",
+	recipe = {
+		{"default:paper", "dye:black", "default:paper"},
+		{"default:paper", "dye:brown", "default:paper"},
+		{"default:paper", "dye:yellow", "default:paper"},
+	}
+})
+
+minetest.register_craft({
+	output = "funnysigns:donoten",
+	recipe = {
+		{"default:paper", "dye:red", "default:paper"},
+		{"default:paper", "dye:red", "default:paper"},
+		{"default:paper", "dye:white", "default:paper"},
+	}
+})
+
+print("[MOD] Funny Signs 0.2 Loaded.")
