@@ -2,6 +2,8 @@
 
 This MOD adds craftable funny wall signs.
 
+![screenshot.jpg](https://github.com/HybridDog/funnysigns/blob/master/screenshot.jpg)
+
 ## Mod dependencies ##
 * default
 * unifieddyes?
