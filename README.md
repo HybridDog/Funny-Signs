@@ -14,10 +14,10 @@ unifieddyes are for the recipes
 GNU LESSER GENERAL PUBLIC LICENSE version 2.1
 
 ## Changelog ##
-### 0.2 ###
+### 2.6 ###
 * optimized textures (64x64) [SaKeL]
 * added recipes for all 15 signs [SaKeL]
 * added proper README file [SaKeL]
 
-### 0.1 ###
+### 2.5 ###
 * initial fork
